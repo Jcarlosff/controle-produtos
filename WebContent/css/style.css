@@ -61,5 +61,10 @@ p>a{
 	margin: 2%;
 }
 
-
+div.rodape{
+	background: #6C7B8B;
+	padding: 2%;
+	font: 14px Lobster;
+	text-align: center;
+}
 

@@ -55,5 +55,9 @@ function removeProduto(id){
 	$('#produto' +id).remove();
 }
 </script>
+
+	<div class="rodape">
+		<%@include file="../rodape.jsp" %>
+	</div>
 </body>
 </html>
