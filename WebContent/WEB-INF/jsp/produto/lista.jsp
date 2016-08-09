@@ -35,11 +35,15 @@
 				<td><fmt:formatDate pattern="dd/MM/yyyy"
 						value="${produto.dataInicioVenda.time}" /></td>
 				<td id="alterar-remover">
-					<span>
-						<a href="#" onclick="return removeProduto(${produto.id})">Remover</a>
+					<span style="padding:5%">
+						<a href="#" onclick="return removeProduto(${produto.id})">
+							Remover
+						</a>
 					</span>
-					<span style="padding:10%">
-						<a href="<c:url value="/produto/edita"/>?id=${produto.id}">Alterar</a>
+					<span style="padding:5%">
+						<a href="<c:url value="/produto/edita"/>?id=${produto.id}">
+							Alterar
+						</a>
 					</span>
 				</td>
 			</tr>

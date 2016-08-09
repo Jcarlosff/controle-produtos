@@ -11,6 +11,7 @@ import br.com.caelum.vraptor.dao.ProdutoDAO;
 public class ProdutoController {
 	
 	private Result result;
+	@SuppressWarnings("unused")
 	private ProdutoDAO produtoDao;
 	
 	public ProdutoController(Result result, ProdutoDAO produtoDao){
